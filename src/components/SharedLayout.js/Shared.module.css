@@ -1,0 +1,19 @@
+.shared {
+    display: flex;
+    gap: 30px;
+    padding: 20px 30px;
+    border-bottom: 1px solid red;
+}
+
+.shared_link {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: red;
+}
+
+.shared_link:hover,
+.shared_link:active {
+    color: white;
+}

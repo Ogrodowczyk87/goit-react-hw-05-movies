@@ -1,0 +1,38 @@
+.cast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.actor {
+    width: 170px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.actor_descr {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.image {
+    width: 170px;
+    height: 250px;
+}
+
+
+.name {
+    font-size: 12px;
+}
